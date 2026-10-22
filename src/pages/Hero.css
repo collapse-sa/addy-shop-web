@@ -4,7 +4,7 @@
 }
 
 .hero h1.hero-identity {
-  width: min(100%, 335px);
+  width: min(100%, 305px);
   margin: 0 0 24px;
   line-height: 0;
 }
@@ -68,14 +68,14 @@
 
 @media (max-width: 800px) {
   .hero .hero-inner { grid-template-columns: 1fr; }
-  .hero h1.hero-identity { width: min(100%, 340px); }
+  .hero h1.hero-identity { width: min(100%, 320px); }
   .hero .hero-visual { height: min(70vw, 500px); }
   .hero .hero-photo-main { width: 68%; }
   .hero .hero-photo-secondary { width: 38%; left: 4%; bottom: 10%; }
 }
 
 @media (max-width: 600px) {
-  .hero h1.hero-identity { width: min(82vw, 310px); margin-bottom: 22px; }
+  .hero h1.hero-identity { width: min(82vw, 290px); margin-bottom: 22px; }
   .hero .hero-visual { height: 350px; }
   .hero .hero-photo-main { width: 80%; right: -3%; }
   .hero .hero-photo-secondary { width: 46%; left: 0; bottom: 4%; }
