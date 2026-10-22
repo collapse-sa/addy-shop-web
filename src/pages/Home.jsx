@@ -4,7 +4,7 @@ import { ArrowIcon } from '../components/Icons';
 import { WHATSAPP_NUMBER, whatsappUrl } from '../shop';
 import bolsoHome from '../assets/bolso-home.png';
 import bolsoHome1 from '../assets/bolso-home1.png';
-import logoInfo from '../assets/logo-info.jpeg';
+import logoInfo from '../assets/logo-info.png';
 import './Hero.css';
 import './Categories.css';
 

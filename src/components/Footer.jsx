@@ -1,4 +1,4 @@
-import logoInfo from '../assets/logo-info.jpeg';
+import logoInfo from '../assets/logo-info.png';
 import { WHATSAPP_NUMBER, whatsappUrl } from '../shop';
 import './Footer.css';
 
