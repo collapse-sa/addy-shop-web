@@ -13,7 +13,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "images:catalog": "node scripts/generate-catalog-images.cjs",
+    "prestart": "npm run images:catalog",
     "start": "react-scripts start",
+    "prebuild": "npm run images:catalog",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -35,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
   }
 }
