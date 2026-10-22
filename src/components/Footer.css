@@ -1,0 +1,13 @@
+.site-footer .footer-intro img {
+  width: 150px;
+  height: 150px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 600px) {
+  .site-footer .footer-intro img {
+    width: 140px;
+    height: 140px;
+  }
+}
